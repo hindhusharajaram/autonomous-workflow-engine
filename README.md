@@ -1,10 +1,12 @@
-# AI Meeting Intelligence System
-
-### Autonomous Multi-Agent Workflow Engine for Enterprise Automation
+#  Autonomous Enterprise Workflow Engine
+### *Next-Gen Multi-Agent Meeting Intelligence & Task Automation*
 
 <p align="center">
-  <b>Extract → Assign → Execute → Audit</b><br>
-  <i>Transforming meeting chaos into structured, autonomous execution.</i>
+  <img src="https://img.shields.io/badge/Agentic%20AI-State%20Machine-blueviolet?style=for-the-badge&logo=ai" />
+  <img src="https://img.shields.io/badge/Language-Python%203.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM-Llama--3.1-orange?style=for-the-badge&logo=meta" />
+  <img src="https://img.shields.io/badge/Inference-Groq_Cloud-f5f5f5?style=for-the-badge&logo=speedtest&logoColor=orange" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
 </p>
 
 ---
@@ -184,6 +186,6 @@ This system demonstrates how **Agentic AI** evolves from passive assistance to *
 ---
 
 <p align="center">
-  <b>ETimes Hackathon • Agentic AI Track</b><br>
+  <b>Economic Times Hackathon • Agentic AI Track</b><br>
   <i>Built for autonomous enterprise workflows</i>
 </p>
