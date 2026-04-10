@@ -9,7 +9,24 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
 </p>
 
----
+## Table of Contents
+
+* [Overview](#overview)
+* [Problem Statement](#problem-statement)
+* [System Architecture](#system-architecture)
+* [Multi-Agent System](#multi-agent-system)
+* [Core Capabilities](#core-capabilities)
+* [Execution Lifecycle](#execution-lifecycle)
+* [Tech Stack](#tech-stack)
+* [Project Structure](#project-structure)
+* [Setup & Run](#setup--run)
+* [Quick Demo (Colab)](#quick-demo-colab)
+* [Security & Reliability](#security--reliability)
+* [Auditability](#auditability)
+* [Sample Audit Trail](#sample-audit-trail)
+* [Guarantees](#guarantees)
+* [Key Challenges & Solutions](#key-challenges--solutions)
+* [Summary](#summary)
 
 ## Overview
 
@@ -21,8 +38,6 @@ An **Agentic AI system** that converts unstructured meeting transcripts into **i
 * Simulates autonomous execution cycles
 * Maintains a complete audit trail of all actions
 
----
-
 ## Problem Statement
 
 Build a system that can:
@@ -31,8 +46,6 @@ Build a system that can:
 * Detect failures and **self-correct dynamically**
 * Execute tasks with **minimal manual intervention**
 * Maintain a **fully auditable and explainable decision trail**
-
----
 
 ## System Architecture
 
@@ -45,8 +58,6 @@ flowchart LR
     E --> F[Audit Trail]
 ```
 
----
-
 ## Multi-Agent System
 
 | Agent                          | Responsibility                                         |
@@ -55,8 +66,6 @@ flowchart LR
 | **Logic Engine**            | Handles dependencies, state transitions, and execution |
 | **Validator**               | Verifies completion and records all system actions     |
 
----
-
 ## Core Capabilities
 
 * AI-powered decision & task extraction
@@ -64,8 +73,6 @@ flowchart LR
 * Autonomous task lifecycle management
 * Real-time interactive dashboard (Gradio)
 * Fully explainable audit logging
-
----
 
 ## Execution Lifecycle
 
@@ -78,8 +85,6 @@ flowchart TD
     E --> F[Resolved 🟢]
 ```
 
----
-
 ## Tech Stack
 
 | Layer      | Technology         |
@@ -88,8 +93,6 @@ flowchart TD
 | Backend    | Python             |
 | Interface  | Gradio             |
 | Data Layer | Pandas             |
-
----
 
 ## Project Structure
 
@@ -108,8 +111,6 @@ etimes-ai-workflow/
 └── .gitignore
 ```
 
----
-
 ## Setup & Run
 
 ```bash
@@ -127,16 +128,12 @@ python src/main.py
 - Add API key via secrets  
 - Run all cells
 
----
-
 ## Security & Reliability
 
 * Secure API key handling (no hardcoding)
 * No persistent storage of sensitive data
 * Input validation for safe processing
 * Controlled and minimal dependency usage
-
----
 
 ## Auditability
 
@@ -161,8 +158,6 @@ Every system action is **logged, traceable, and verifiable**, ensuring enterpris
 
 > Full logs are visible in the live dashboard during execution.
 
----
-
 ## Key Challenges & Solutions
 
 | Challenge                             | Solution                                                                    |
@@ -173,8 +168,6 @@ Every system action is **logged, traceable, and verifiable**, ensuring enterpris
 
 > These design decisions ensure the system remains reliable, interpretable, and production-ready.
 
----
-
 ## Summary
 
 This system demonstrates how **Agentic AI** evolves from passive assistance to **active, autonomous execution**, combining:
@@ -182,8 +175,6 @@ This system demonstrates how **Agentic AI** evolves from passive assistance to *
 * Intelligence (LLMs)
 * Logic (Workflow Engine)
 * Transparency (Audit Trail)
-
----
 
 <p align="center">
   <b>Economic Times Hackathon • Agentic AI Track</b><br>
