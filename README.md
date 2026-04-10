@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 An **Agentic AI system** that converts unstructured meeting transcripts into **intelligent, executable workflows** — with minimal human intervention and full transparency.
 
@@ -23,7 +23,7 @@ An **Agentic AI system** that converts unstructured meeting transcripts into **i
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Build a system that can:
 
@@ -34,40 +34,40 @@ Build a system that can:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
-    A[Meeting Transcript] --> B[🧠 LLM Agent]
-    B --> C[⚙️ Workflow Engine]
-    C --> D[📊 Task Registry]
-    D --> E[🏁 Validator Agent]
-    E --> F[📜 Audit Trail]
+    A[Meeting Transcript] --> B[LLM Agent]
+    B --> C[Workflow Engine]
+    C --> D[Task Registry]
+    D --> E[Validator Agent]
+    E --> F[Audit Trail]
 ```
 
 ---
 
-## 🤖 Multi-Agent System
+## Multi-Agent System
 
 | Agent                          | Responsibility                                         |
 | ------------------------------ | ------------------------------------------------------ |
-| 🧠 **LLM**                     | Extracts structured decisions and assigns ownership    |
-| ⚙️ **Logic Engine**            | Handles dependencies, state transitions, and execution |
-| 🏁 **Validator**               | Verifies completion and records all system actions     |
+| **LLM**                     | Extracts structured decisions and assigns ownership    |
+| **Logic Engine**            | Handles dependencies, state transitions, and execution |
+| **Validator**               | Verifies completion and records all system actions     |
 
 ---
 
-## ⚡ Core Capabilities
+## Core Capabilities
 
-* ✔ AI-powered decision & task extraction
-* ✔ Dependency-aware workflow execution
-* ✔ Autonomous task lifecycle management
-* ✔ Real-time interactive dashboard (Gradio)
-* ✔ Fully explainable audit logging
+* AI-powered decision & task extraction
+* Dependency-aware workflow execution
+* Autonomous task lifecycle management
+* Real-time interactive dashboard (Gradio)
+* Fully explainable audit logging
 
 ---
 
-## 📊 Execution Lifecycle
+## Execution Lifecycle
 
 ```mermaid
 flowchart TD
@@ -80,7 +80,7 @@ flowchart TD
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer      | Technology         |
 | ---------- | ------------------ |
@@ -91,7 +91,7 @@ flowchart TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 etimes-ai-workflow/
@@ -110,7 +110,7 @@ etimes-ai-workflow/
 
 ---
 
-## 🛠️ Setup & Run
+## Setup & Run
 
 ```bash
 git clone <your-repo-link>
@@ -119,7 +119,7 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
-### ▶️ Quick Demo (Colab)
+### Quick Demo (Colab)
 
 * **Run Demo (Colab)**  
 [Open Notebook](https://github.com/<your-username>/<your-repo>/blob/main/notebook/demo.ipynb)
@@ -129,7 +129,7 @@ python src/main.py
 
 ---
 
-## 🔐 Security & Reliability
+## Security & Reliability
 
 * Secure API key handling (no hardcoding)
 * No persistent storage of sensitive data
@@ -138,21 +138,21 @@ python src/main.py
 
 ---
 
-## 📜 Auditability
+## Auditability
 
 Every system action is **logged, traceable, and verifiable**, ensuring enterprise-grade transparency.
 
-### 🔹 Sample Audit Trail
+### Sample Audit Trail
 
 | Time  | Agent       | Event             | Description                    |
 | ----- | ----------- | ----------------- | ------------------------------ |
-| 05:31 | 🧠 Planner  | Task Indexed      | Extracted decision → Task #1   |
-| 05:31 | 🧠 Planner  | Task Indexed      | Extracted decision → Task #2   |
-| 05:31 | ⚙️ Executor | Execution Started | Task #1 moved to *In Progress* |
-| 05:31 | ⚙️ Executor | Execution Started | Task #2 moved to *In Progress* |
-| 05:31 | 🏁 Auditor  | Validation        | Task #1 marked as *Resolved*   |
+| 05:31 | Planner  | Task Indexed      | Extracted decision → Task #1   |
+| 05:31 | Planner  | Task Indexed      | Extracted decision → Task #2   |
+| 05:31 | Executor | Execution Started | Task #1 moved to *In Progress* |
+| 05:31 | Executor | Execution Started | Task #2 moved to *In Progress* |
+| 05:31 | Auditor  | Validation        | Task #1 marked as *Resolved*   |
 
-### 🔹 Guarantees
+### Guarantees
 
 * **Full Traceability** → Every action tied to agent & timestamp
 * **Explainable Decisions** → Clear path from input → execution
@@ -163,7 +163,7 @@ Every system action is **logged, traceable, and verifiable**, ensuring enterpris
 
 ---
 
-## ⚡ Key Challenges & Solutions
+## Key Challenges & Solutions
 
 | Challenge                             | Solution                                                                    |
 | ------------------------------------- | --------------------------------------------------------------------------- |
@@ -175,13 +175,13 @@ Every system action is **logged, traceable, and verifiable**, ensuring enterpris
 
 ---
 
-## 🏁 Summary
+## Summary
 
 This system demonstrates how **Agentic AI** evolves from passive assistance to **active, autonomous execution**, combining:
 
-* 🧠 Intelligence (LLMs)
-* ⚙️ Logic (Workflow Engine)
-* 📜 Transparency (Audit Trail)
+* Intelligence (LLMs)
+* Logic (Workflow Engine)
+* Transparency (Audit Trail)
 
 ---
 
